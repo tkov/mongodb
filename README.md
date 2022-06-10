@@ -1,8 +1,8 @@
 # mongodb
 Files pertaining to MongoDB. 
 
-- mongoDb Client
-- **mongoose** ORM
+- **mongodb Native Driver**
+- **mongoose** (ORM)
 
 [Tutorial](mongodb-tutorial.md) |
 [Tutorial 2](mongodb-tutorial-2.md)
