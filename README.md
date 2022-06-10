@@ -4,6 +4,7 @@ Files pertaining to MongoDB.
 - mongoDb Client
 - **mongoose** ORM
 
+[Tutorial](mongodb-tutorial.md)
 
 ## mongoose
 
