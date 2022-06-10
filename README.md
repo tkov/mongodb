@@ -22,7 +22,7 @@ Connecting to MongoDB
 ```js
 const express = require('express');
 const { ObjectId } = require('mongodb');
-const { connectToDb, getDb } = require('./db');
+const { connectToDb, getDb } = require('./db'); // importing our database setup file
 
 // init app & middleware
 const app = express()
@@ -35,7 +35,7 @@ connectToDb((err) => {
         app.listen(3000, () => {
             console.log('app listening on port 3000...')
         })
-        db = getDb()
+        db = getDb() // get our database object so we can perform queries/mutations
     }
 })
 ```
